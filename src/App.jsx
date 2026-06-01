@@ -6,9 +6,7 @@ import heroImg from "./assets/hero.png";
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <h1 class="text-3xl font-bold underline bg-red-500">Hello world! roms</h1>
-  );
+  return <h1 class="text-3xl font-bold underline bg-red-500">hello angelo</h1>;
 }
 
 export default App;
