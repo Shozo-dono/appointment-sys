@@ -5,16 +5,16 @@ import heroImg from "./assets/hero.png";
 
 function App() {
   return (
-    <div className="bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 font-sans antialiased min-h-screen flex items-center justify-center p-5">
+    <div className="bg-gray-100 font-sans antialiased min-h-screen flex items-center justify-center p-5">
       <div className="w-full max-w-md animate-fade-in">
         <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-2xl shadow-indigo-200/50 border border-white/40 overflow-hidden transition-all duration-300 hover:shadow-indigo-300/30">
-          {/* Decorative top bar */}
-          <div className="h-2 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+          {/* Decorative top bar - solid indigo */}
+          <div className="h-2 w-full bg-indigo-500"></div>
 
           <div className="p-6 sm:p-8">
-            {/* Header */}
+            {/* Header - solid text color */}
             <div className="text-center mb-8">
-              <h1 className="text-3xl font-extrabold bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent">
+              <h1 className="text-3xl font-extrabold text-indigo-700">
                 Welcome back
               </h1>
               <p className="text-gray-500 mt-2 text-sm">
@@ -197,10 +197,10 @@ function App() {
                 <div className="text-xs text-gray-400">🔐 SSL secured</div>
               </div>
 
-              {/* Submit button - static, no action */}
+              {/* Submit button - solid color, no gradient */}
               <button
                 type="button"
-                className="mt-4 w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 focus:ring-4 focus:ring-indigo-300"
+                className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 focus:ring-4 focus:ring-indigo-300"
               >
                 ✦ Sign In ✦
               </button>
